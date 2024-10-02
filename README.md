@@ -2,5 +2,7 @@
 
 ## Exercises
 
-1. [Exercise 1: Figuras](./exercises/veterinaria.md)
-2. [Exercise 2: Veterinaria](./exercises/figuras.md)
+| Exercise Number | Title             | Link to Problem Statement                            |
+|-----------------|-------------------|------------------------------------------------------|
+| 1               | Figuras           | [Figuras](./src/exercises/figuras.md)    |
+| 2               | Veterinaria       | [Veterinaria](./src/exercises/veterinaria.md) |
