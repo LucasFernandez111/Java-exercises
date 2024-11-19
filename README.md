@@ -2,8 +2,8 @@
 
 ## Exercises
 
-| Title             | Link to Problem Statement                     |
-|-------------------|-----------------------------------------------|
-| Figuras           | [Figuras](./src/exercises/Figuras)            |
-| Veterinaria       | [Veterinaria](./src/exercises/Veterinaria)    |
-| Personas          | [Personas](./src/exercises/personas)          |
+| Title             | Link to Problem Statement           |
+|-------------------|-------------------------------------|
+| Figuras           | [Figuras](./src/Figuras)            |
+| Veterinaria       | [Veterinaria](./src/Veterinaria)    |
+| Personas          | [Personas](./src/personas)          |
