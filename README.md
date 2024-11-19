@@ -6,3 +6,4 @@
 |-------------------|-----------------------------------------------|
 | Figuras           | [Figuras](./src/exercises/figuras.md)         |
 | Veterinaria       | [Veterinaria](./src/exercises/veterinaria.md) |
+| Personas          | [Personas](./src/exercises/personas.md) |
