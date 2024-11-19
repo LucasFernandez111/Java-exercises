@@ -4,6 +4,6 @@
 
 | Title             | Link to Problem Statement                     |
 |-------------------|-----------------------------------------------|
-| Figuras           | [Figuras](./src/exercises/figuras.md)         |
-| Veterinaria       | [Veterinaria](./src/exercises/veterinaria.md) |
-| Personas          | [Personas](./src/exercises/personas.md) |
+| Figuras           | [Figuras](./src/exercises/Figuras)            |
+| Veterinaria       | [Veterinaria](./src/exercises/Veterinaria)    |
+| Personas          | [Personas](./src/exercises/personas)          |
