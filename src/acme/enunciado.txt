@@ -1,0 +1,34 @@
+- Se dispone de un archivo “personal.csv”, con información de los empleados de cada sector de la empresa “ACME”. La empresa cuenta con distintos sectores identificados por códigos que van del 100 al 300. 
+El archivo está estructurado de la siguiente manera: 
+Sector, Legajo, Apellido y nombre, antigüedad (separados por coma).
+Ejemplo:
+500,2098,SÁNCHEZ DE LIRA CARLOS,26
+300,5529,SANCHEZ  MARTHA ISABEL,2
+200,9026,SÁNCHEZ ANTONIO,17
+100,3491,SÁNCHEZ ARLEGUI CORAL,1
+100,2098,SÁNCHEZ DE LIRA CARLOS,26
+
+-Implementar la class GestionACME con los siguientes métodos:
+
+Map <Integer, List<Empleado>>leerArchivoDePersonal(String entrada){...}
+
+que retorna un mapa de listas de empleados donde la Key es el número de sector y el Value una lista con todos los empleados de ese sector; 
+	
+listarEmpleadosDelSector(int sector, Map<Integer,List<Empleado>> empleados){...}
+
+que genere el archivo “empleadosDelSectorXXX.csv” (XXX representa el sector pedido).
+
+Ayudas: 
+FileReader fr = new FileReader(new File(archivoDeEntrada));
+BufferedReader br = new BufferedReader(fr);
+PrintWriter pr = new PrintWriter(new FileWriter(archivoDeSalida));
+for (Map.Entry<keyType, valType> entry : map.entrySet()) {
+	keyType key = entry.getKey();
+	valType val = entry.getValue();			
+}
+
+Nota: Se espera un adecuado tratamiento de excepciones. Debe implementarse la class Empleado con la funcionalidad necesaria para implementar los métodos pedidos en GestiónAcme. 
+
+Escribir un método que reciba dos listas como parámetros y devuelva true si todos los elementos de la primera son Mayores que cualquiera de la segunda, y false en caso contrario Considere que los objetos que están contenidos en las listas tienen órden total (Implementan Comparable y tienen implementado su propio equals y hashCode). 
+Ejemplifica su uso mediante dos casos de prueba JUnit, uno con listas de Integer y otro con listas de Strings.	
+public boolean sonTodosMayores(List<T> l1, List<T> l2){ /**  **/ }
